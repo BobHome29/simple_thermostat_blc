@@ -1,6 +1,6 @@
 {
   "domain": "simple_thermostat_blc",
-  "name": "Simple Thermostat BLC Hello",
+  "name": "Simple Thermostat BLC",
   "documentation": "https://github.com/BobHome29/simple_thermostat_blc",
   "dependencies": [
     "sensor",
