@@ -3,7 +3,7 @@ default_config:
 logger:
   default: info
   logs:
-    custom_components.simple_thermostat: debug
+    custom_components.simple_thermostat_blc: debug
 
 # If you need to debug uncommment the line below (doc: https://www.home-assistant.io/integrations/debugpy/)
 debugpy:
@@ -25,8 +25,8 @@ input_boolean:
 
 
 climate:
-  - platform: simple_thermostat
-    name: "Simple Thermostat"
+  - platform: simple_thermostat_blc
+    name: "Simple Thermostat BLC"
     heater: input_boolean.fake_heater_switch
     target_sensor: input_number.fake_target_sensor
     min_temp: 17
