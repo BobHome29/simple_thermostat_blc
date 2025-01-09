@@ -1,7 +1,7 @@
 {
-  "domain": "simple_thermostat",
-  "name": "Simple Thermostat",
-  "documentation": "https://github.com/dadge/simple_thermostat",
+  "domain": "simple_thermostat_blc",
+  "name": "Simple Thermostat BLC",
+  "documentation": "https://github.com/BobHome29/simple_thermostat_blc",
   "dependencies": [
     "sensor",
     "switch"
@@ -9,7 +9,7 @@
   "codeowners": [
     "@dadge"
   ],
-  "version": "1.0.2",
-  "issue_tracker": "https://github.com/dadge/simple_thermostat/issues",
+  "version": "1.0.3",
+  "issue_tracker": "https://github.com/BobHome29/simple_thermostat_blc/issues",
   "iot_class": "local_polling"
 }
